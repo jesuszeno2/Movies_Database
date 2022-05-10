@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 
 # Connect to the test db and create a cursor
-conn = psycopg2.connect("host=localhost dbname=moviesdb user=postgres password=anything")
+conn = psycopg2.connect("host=localhost dbname=moviesdb user=username password=anything")
 curr = conn.cursor()
 
 # Execute a create table statement in the database
